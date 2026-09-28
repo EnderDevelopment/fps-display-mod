@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsmod",
+  "version": "1.0.0",
+  "name": "FPS Mod",
+  "description": "Displays the current FPS in Minecraft Bedrock Edition.",
+  "authors": [
+    "kbywlyd56"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/kbywlyd56/fpsmod"
+  },
+  "license": "MIT",
+  "icon": "assets/fpsmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kbywlyd56.fpsmod.FPSMod"
+    ],
+    "client": [
+      "com.kbywlyd56.fpsmod.client.FPSModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4",
+    "fabric-api": "*"
+  }
+}
